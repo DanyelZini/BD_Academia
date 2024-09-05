@@ -35,7 +35,7 @@ CREATE TABLE usuario (
     CPF VARCHAR(11) NOT NULL,
     email VARCHAR(55) NOT NULL,
     telefone VARCHAR(11) NOT NULL,
-    data_aniversario DATE NOT NULL,
+    data_nascimento DATE NOT NULL,
     data_cadastro DATE NOT NULL,
     status_ativo BOOLEAN NOT NULL
 );
@@ -85,7 +85,7 @@ INSERT INTO personal (nome, CPF, telefone, email, especialidade) VALUES
 ('Mariana Torres', '44455566677', '41966666666', 'mariana@personal.com', 'Yoga'),
 ('Lucas Pereira', '88899900011', '51955555555', 'lucas@personal.com', 'Pilates');
 
-INSERT INTO usuario (nome, CPF, email, telefone, data_aniversario, data_cadastro, status_ativo) VALUES
+INSERT INTO usuario (nome, CPF, email, telefone, data_nascimento, data_cadastro, status_ativo) VALUES
 ('Pedro Oliveira', '12312312312', 'pedro@email.com', '11987654321', '1990-01-15', '2024-01-01', TRUE),
 ('Maria Fernandes', '32132132132', 'maria@email.com', '21987654322', '1985-06-25', '2024-02-01', TRUE),
 ('José Costa', '45645645645', 'jose@email.com', '31987654323', '1995-03-10', '2024-03-01', TRUE),
