@@ -1,5 +1,5 @@
 # Projeto SQL Academia 🍗
-Projeto de banco de dados relacional, desenvolvido como parte de um projeto de aprendizagem no framework Django
+Projeto de banco de dados relacional, desenvolvido como parte de um projeto de API de aprendizagem no framework Django
 
 ## Modelo relacional 🎲
 Modelo criado para o desenvolvimento do banco de dados.
